@@ -17,19 +17,13 @@
 .tasks__button{
     border:none;
     color:white;
+    background-color: green;
     width:30px;
     height:30px;
     padding:0;
 }
-.tasks__button--toggleDone{
-    background: green;
-}
-.tasks__button--toggleDone:hover{
-    background: rgb(1, 145, 1);
-}
-.tasks__button--toggleDone:active{
-    background: rgb(5, 201, 5);
-}
+
+
 .tasks__button--remove{
     background: red;
 }
