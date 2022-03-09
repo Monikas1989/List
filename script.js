@@ -48,7 +48,7 @@
         `;
         }
 
-        document.querySelector(".js-tasks").innerHTML = htmlString;
+        document.querySelector(".js-tasks").innerHTML = tasksListHTMLContent;
         bindEvents();
     };
 
