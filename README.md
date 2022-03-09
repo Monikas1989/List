@@ -19,6 +19,7 @@ Most of my code is using JS. This is snippet of my code: ```
         bindEvents();
     };```
     Visit my demo and have a good time. I greet you.
+    ![Alt]("C:\Users\Frontend\OneDrive\Pulpit\Lista zadań - Google Chrome 2022-03-10 00-04-15.mp4")
 ## Languages
 HTML, CSS. JS, GRID.
 ### demo
