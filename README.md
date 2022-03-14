@@ -1,5 +1,5 @@
 # List
-This is my fourth project for training purposes - YouCode. 
+This is my fourth project for training purposes - YouCode. This page is in polish language. 
 ## About this project
 "List" is page that allows you to create any list. You can enter there whatever you want and then mark done task or remove a completed/useless task.
 Most of my code is using JS. This is snippet of my code: ``` 
