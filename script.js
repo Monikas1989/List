@@ -107,24 +107,26 @@
             }
         };
         let convertingButtonsHTMLContent = "";
-        if hideConvertingButtons (() {
+        if (hideConvertingButtons ()) {
             convertingButtonsHTMLContent += ``;
             document.querySelector(".js-convertingButtons").innerHTML = convertingButtonsHTMLContent;
             return;
         }
 
-        hideConvertingButtonsHTMLContent += `
-        <button class= "hide__button hide__button--converting js-hiddeDoneAllButton">${hideDoneTasks ? "Pokaż ukończone": "Ukryj ukończone"}</button>
+        convertingButtonsHTMLContent += `
+        <button class= "converting__button converting__button--hide js-hiddeDoneAllButton">${hideDoneTasks ? "Pokaż ukończone": "Ukryj ukończone"}</button>
+        <button class= "converting__button ${allDoneTasks? "converting__button--off": ""} js-allDoneButton" $ {doneAllTasks? "off" : ""}>Ukończ wszystkie</button>`;
+        document.querySelector(".js-convertingButtons").innerHTML = convertingButtonsHTMLContent;
         
     };
-    const bindButtonsEvents = () => {};
+    
     const render = () => {
         renderTasks();
         renderButtons();
 
-       
+       bindEvents();
         
-        bindButtonsEvents();
+       
     };
 
     const onFormSubmit = (event) => {
