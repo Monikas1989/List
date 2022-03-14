@@ -67,7 +67,23 @@
             });
 
         });
-    }
+
+        const allDoneButton = document.querySelectorAll(".js-allDoneButton");
+        allDoneButton.forEach((allDone, index) => {
+            allDone.addEventListener("click", () => {
+               allTasksDone(index);
+            });
+         });
+
+         const toggleHideDoneAll = document.querySelectorAll (".js-hiddeDoneAllButton");
+         toggleHideDoneAll.forEach((hiddeDoneAllButton, index) => {
+             hiddeDoneAllButton.addEventListener("click", () => {
+                 ToggleHideDoneTasks(index);
+             });
+         });
+             
+         };
+    
     const renderTasks = () => {
         let tasksListHTMLContent = "";
         for (const task of tasks) {
@@ -84,7 +100,22 @@
         bindEvents();
     };
     const renderButtons = () => {
+        confirmIfAllDone();
+        const hideConvertingButtons = () => {
+            if (!tasks || !tasks.length ){
+                return true;
+            }
+        };
+        let convertingButtonsHTMLContent = "";
+        if hideConvertingButtons (() {
+            convertingButtonsHTMLContent += ``;
+            document.querySelector(".js-convertingButtons").innerHTML = convertingButtonsHTMLContent;
+            return;
+        }
 
+        hideConvertingButtonsHTMLContent += `
+        <button class= "hide__button hide__button--converting js-hiddeDoneAllButton">${hideDoneTasks ? "Pokaż ukończone": "Ukryj ukończone"}</button>
+        
     };
     const bindButtonsEvents = () => {};
     const render = () => {
