@@ -24,6 +24,7 @@
     border: none;
     transition: 0.5s;
 }
-.form__button:hover{
-    transform: scale( 1.1 );
+
+.form__button:hover {
+    transform: scale(1.1);
 }

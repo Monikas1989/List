@@ -27,30 +27,32 @@
 }
 
 .tasks__button--toggleDone {
-    background:green;
-    transform:1s;
+    background: green;
+    transform: 1s;
 }
-    
 
 .tasks__button--toggleDone:hover {
     background: rgb(3, 90, 3);
 }
+
 .tasks__button--toggleDone:active {
     background: rgb(2, 158, 2);
 }
 
 .tasks__button--remove {
     background: red;
-    transform:1s;
+    transform: 1s;
 }
-.tasks__button--remove:hover{
- background: rgb(185, 8, 8);
- 
- 
+
+.tasks__button--remove:hover {
+    background: rgb(185, 8, 8);
+
 }
-.tasks__button--remove:active{
+
+.tasks__button--remove:active {
     background: rgb(201, 69, 69);
 }
-.tasks__item--hidden{
-    display:none;
+
+.tasks__item--hidden {
+    display: none;
 }
