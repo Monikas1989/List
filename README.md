@@ -9,7 +9,7 @@ Most of my code is using JS.
 
 Visit my demo and have a good time. I greet you.
 
-[![Watch the video](C:\dev\praca domowa moduł 6\screen-recording.webm)
+
 
 
     
