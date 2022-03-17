@@ -7,7 +7,6 @@
     color:teal;
     border:none;
     margin: 0 0 0 20px;
-    border-bottom: 2px solid transparent;
     transition: color 0.3s;
 }
 @media(max-width:767px) {
