@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     size: 20px;
+    
 }
 
 .buttons__button {
@@ -10,6 +11,7 @@
     border: none;
     margin: 0 0 0 20px;
     transition: color 0.3s;
+    cursor: pointer;
     
 }
 
@@ -27,4 +29,5 @@
 }
 .buttons__button:disabled {
     color: #ccc;
+    cursor: not-allowed;
 }

@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    
 }
 
 *, ::before, ::after {
@@ -9,4 +10,5 @@ html {
 .body {
     font-family: 'Montserrat', sans-serif;
     background-color: gainsboro;
+    
 }
