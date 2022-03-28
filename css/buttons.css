@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     size: 20px;
-    
+
 }
 
 .buttons__button {
@@ -12,7 +12,7 @@
     margin: 0 0 0 20px;
     transition: color 0.3s;
     cursor: pointer;
-    
+
 }
 
 @media(max-width:767px) {
@@ -22,11 +22,10 @@
     }
 }
 
-
-
 .buttons__button:hover {
     color: rgb(6, 173, 173);
 }
+
 .buttons__button:disabled {
     color: #ccc;
     cursor: not-allowed;
